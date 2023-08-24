@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T11:41:30.791Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="R2AwC7zKl7OnuHv5gufa" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T11:41:45.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UX6okNIPbDa5jRrwq1ky" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1481" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
           <mxGeometry x="170" y="600" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1Ew5sEN9AF9nVpZrV5F-24" value="(3) access my service&lt;br&gt;connect to cluster ip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="710" width="190" height="30" as="geometry" />
+          <mxGeometry x="380" y="710" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1Ew5sEN9AF9nVpZrV5F-25" value="(4) redirect to (random) proxy port" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="590" width="190" height="30" as="geometry" />
