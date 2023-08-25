@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T05:59:30.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OpM4OciH0qt7XAs9V7YN" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-25T06:00:33.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vDWLn8W_Qlu9OatMOgtI" version="21.6.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,67 +129,73 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEdlyrtsKq0zmjT015Mj-1" value="loadbalancer service-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DEdlyrtsKq0zmjT015Mj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DEdlyrtsKq0zmjT015Mj-2" target="DEdlyrtsKq0zmjT015Mj-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="690" as="sourcePoint" />
+            <mxPoint x="260" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="340" y="720" />
               <mxPoint x="270" y="720" />
+              <mxPoint x="200" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="xoiq3SK7pthWDqAEQz8c-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340.0232558139537" y="690" as="sourcePoint" />
+            <mxPoint x="270.0232558139537" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="340" y="720" />
-              <mxPoint x="405" y="720" />
+              <mxPoint x="270" y="720" />
+              <mxPoint x="335" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DEdlyrtsKq0zmjT015Mj-2" value="LB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DEdlyrtsKq0zmjT015Mj-4" value="Pod-1&lt;br&gt;labels: app=myapp1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="760" width="120" height="40" as="geometry" />
+          <mxGeometry x="140" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-2" value="Pod-2&lt;br&gt;labels: app=myapp1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="760" width="120" height="40" as="geometry" />
+          <mxGeometry x="280" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xoiq3SK7pthWDqAEQz8c-5" target="xoiq3SK7pthWDqAEQz8c-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-5" value="loadbalancer service-2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xoiq3SK7pthWDqAEQz8c-8" target="xoiq3SK7pthWDqAEQz8c-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="690" as="sourcePoint" />
+            <mxPoint x="560" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="640" y="720" />
               <mxPoint x="570" y="720" />
+              <mxPoint x="500" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="xoiq3SK7pthWDqAEQz8c-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640.0232558139537" y="690" as="sourcePoint" />
+            <mxPoint x="570.0232558139537" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="640" y="720" />
-              <mxPoint x="705" y="720" />
+              <mxPoint x="570" y="720" />
+              <mxPoint x="635" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-8" value="LB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-9" value="Pod-3&lt;br&gt;labels: app=myapp2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="760" width="120" height="40" as="geometry" />
+          <mxGeometry x="440" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xoiq3SK7pthWDqAEQz8c-10" value="Pod-3&lt;br&gt;labels: app=myapp2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="760" width="120" height="40" as="geometry" />
+          <mxGeometry x="580" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xoiq3SK7pthWDqAEQz8c-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xoiq3SK7pthWDqAEQz8c-12" value="Cloud Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
