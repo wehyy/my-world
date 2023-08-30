@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T11:47:16.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="z9L3VL80ey3fIHtcmaOC" version="21.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-30T11:53:17.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="A1wPGqjKWK3ORnTEGwNE" version="21.6.9" type="github" pages="6">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="3457" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -986,10 +986,10 @@
         <mxCell id="7Ix-28s2iIZd-lnpssAt-13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1180" y="600" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="7Ix-28s2iIZd-lnpssAt-14" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-14" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App B&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1203.38" y="630" width="113.24" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7Ix-28s2iIZd-lnpssAt-15" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App B&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-15" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1203.38" y="680" width="113.24" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-16" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Istio CNI&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#000000;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
@@ -1031,17 +1031,35 @@
         <mxCell id="7Ix-28s2iIZd-lnpssAt-27" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App C&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1203.39" y="730" width="113.24" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7Ix-28s2iIZd-lnpssAt-28" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App E&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-28" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App B&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1403.39" y="730" width="113.24" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7Ix-28s2iIZd-lnpssAt-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="942.51" y="840" width="635" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-33" value="&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;L4 Secure overlay&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="1547.51" y="840" width="30" height="110" as="geometry" />
         </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-34" value="&lt;i&gt;DemonSets&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1330" y="920" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#007FFF;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="942.51" y="1000" width="635" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-36" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A Waypoint&lt;br&gt;(Gateway)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#ffffff;strokeColor=#001DBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970.01" y="1030" width="119.99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#007FFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="942.51" y="840" width="635" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-40" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A Waypoint&lt;br&gt;(Gateway)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#ffffff;strokeColor=#001DBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1120.01" y="1030" width="119.99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-41" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A Waypoint&lt;br&gt;(Gateway)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#ffffff;strokeColor=#001DBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1270.01" y="1030" width="119.99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-42" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A Waypoint&lt;br&gt;(Gateway)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#ffffff;strokeColor=#001DBC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1420.01" y="1030" width="119.99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-43" value="&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;L7 Network&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1547.51" y="1000" width="30" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
