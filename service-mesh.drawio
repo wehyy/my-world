@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T08:27:56.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vWyKY7Ta8N1mR3RXTzpC" version="21.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-30T08:28:36.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O-Fnexq4sgdAYkLKi8oJ" version="21.6.9" type="github" pages="5">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="1185" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -497,7 +497,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kwJ-S3NLLJM_Wa8Si6N8-31" value="Service Mesh&#39;s &lt;br&gt;Control plane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="670" width="150" height="50" as="geometry" />
+          <mxGeometry x="1790" y="640" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kwJ-S3NLLJM_Wa8Si6N8-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=2;" edge="1" parent="1" source="kwJ-S3NLLJM_Wa8Si6N8-31" target="kwJ-S3NLLJM_Wa8Si6N8-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1840" y="845" as="sourcePoint" />
+            <mxPoint x="1900" y="846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwJ-S3NLLJM_Wa8Si6N8-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=2;" edge="1" parent="1" source="kwJ-S3NLLJM_Wa8Si6N8-31" target="kwJ-S3NLLJM_Wa8Si6N8-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1875" y="700" as="sourcePoint" />
+            <mxPoint x="1803" y="785" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
