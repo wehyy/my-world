@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T13:04:03.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZW_3N4nHMfsl-dC745jG" version="21.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-30T13:04:32.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CR1GyON5ZhftojquS_t2" version="21.6.9" type="github" pages="6">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="3457" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4mUSIRKHD_52qz4_E2gO" name="Page-6">
-    <mxGraphModel dx="546" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="461" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1296,11 +1296,8 @@
             <mxPoint x="199.60000000000014" y="918" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Ix-28s2iIZd-lnpssAt-185" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Istio Control Plane (Istiod)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1010" width="400" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-186" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Kubenetes API Server&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1050" width="400" height="40" as="geometry" />
+          <mxGeometry x="130" y="1010" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-164" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App A&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="680" width="120" height="50" as="geometry" />
@@ -1335,7 +1332,7 @@
         <mxCell id="7Ix-28s2iIZd-lnpssAt-210" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.376;exitY=0.037;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;strokeColor=#4D4D4D;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380.0000000000001" y="1009.48" as="sourcePoint" />
-            <mxPoint x="450.4" y="918" as="targetPoint" />
+            <mxPoint x="450" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
