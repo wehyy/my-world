@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T11:29:28.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NXnIePdm2dGtV--ksZBH" version="21.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-30T11:29:56.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QFs7I4rk2IOqW9ZcwWvb" version="21.6.9" type="github" pages="6">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="3457" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -961,6 +961,9 @@
         </mxCell>
         <mxCell id="7Ix-28s2iIZd-lnpssAt-7" value="&lt;b&gt;App C&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1096.75" y="710" width="86.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ix-28s2iIZd-lnpssAt-8" value="&lt;b&gt;Istio CNI&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1096.75" y="840" width="86.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
