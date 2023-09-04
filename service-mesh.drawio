@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T12:21:00.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_Rd71EA91FcpG9IRT5ZV" version="21.7.1" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-09-04T12:21:58.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GbyA44KSv85-GZlLd78e" version="21.7.1" type="github" pages="14">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="2074" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2176,7 +2176,7 @@
         <mxCell id="GNDzINWEFGVddkxohnPH-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;K8S控制面&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="780" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNDzINWEFGVddkxohnPH-4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="GNDzINWEFGVddkxohnPH-4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cbcbcb;" vertex="1" parent="1">
           <mxGeometry x="290" y="890" width="740" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GNDzINWEFGVddkxohnPH-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Istiod控制面&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2254,7 +2254,7 @@
             <mxPoint x="230.00000000000045" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gGPfz5ArLaEVqjuI6LxF-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gGPfz5ArLaEVqjuI6LxF-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cccccc;" vertex="1" parent="1">
           <mxGeometry x="290" y="1040" width="350" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gGPfz5ArLaEVqjuI6LxF-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Envoy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
