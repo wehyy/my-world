@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T04:00:33.737Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="txXu4OJ00GSyo9g6rOdr" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-07T09:01:20.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZqGpObfFN43auvodd9lg" version="21.7.2" type="github" pages="3">
   <diagram name="Page-1" id="9xqPMki2HJdJ0KM5U1Qb">
     <mxGraphModel dx="1536" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -424,6 +424,29 @@
         </mxCell>
         <mxCell id="W0VcDspAN2rzNNL4tWKB-109" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.994;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W0VcDspAN2rzNNL4tWKB-89" target="W0VcDspAN2rzNNL4tWKB-65">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hgd83-YBwTDTqQJErVar" name="Page-3">
+    <mxGraphModel dx="502" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sMaRb9_7Erw-4aaqUftR-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMaRb9_7Erw-4aaqUftR-1" target="sMaRb9_7Erw-4aaqUftR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMaRb9_7Erw-4aaqUftR-1" value="构建自定义镜像，支持 cgroup v2 特性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMaRb9_7Erw-4aaqUftR-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sMaRb9_7Erw-4aaqUftR-2" target="sMaRb9_7Erw-4aaqUftR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMaRb9_7Erw-4aaqUftR-2" value="自建 K8S 集群" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sMaRb9_7Erw-4aaqUftR-4" value="部署项目程序" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
