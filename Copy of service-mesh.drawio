@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T09:35:00.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FFDeW1LTdKOpGNBYUnYm" version="21.7.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-09-09T09:35:18.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qjn-sOADgkSAVIqsugE0" version="21.7.3" type="github" pages="15">
   <diagram name="Page-1" id="c9ccHwm3bKciFl91v9v1">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3192,6 +3192,9 @@
             <mxPoint x="570.0000000000001" y="519.48" as="sourcePoint" />
             <mxPoint x="640" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f8CiHcAkbuu6DdKszT-h-1" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;原生 K8S 模式&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="570" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
