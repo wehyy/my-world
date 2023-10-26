@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T03:47:40.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="qRbcmPaqbDsvtQCdd2Fo" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-26T04:00:28.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oBR4mIOjvNh5cZNOqADS" version="22.0.8" type="github" pages="2">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_CHwAs1qmUMNcGBB4Rp" name="Page-2">
-    <mxGraphModel dx="1659" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1338" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,7 +238,13 @@
         <mxCell id="DfBK-NFORpgDBOeSiNCi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-4" target="DfBK-NFORpgDBOeSiNCi-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DfBK-NFORpgDBOeSiNCi-4" value="__netif_receive_skb_core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-4" target="DfBK-NFORpgDBOeSiNCi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-4" target="DfBK-NFORpgDBOeSiNCi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-4" value="__netif_receive_skb_core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="810" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-6" target="DfBK-NFORpgDBOeSiNCi-8">
@@ -262,6 +268,9 @@
         <mxCell id="DfBK-NFORpgDBOeSiNCi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-12" target="DfBK-NFORpgDBOeSiNCi-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-12" target="DfBK-NFORpgDBOeSiNCi-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-12" value="ip_local_deliver_finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="530" width="180" height="30" as="geometry" />
         </mxCell>
@@ -277,14 +286,29 @@
         <mxCell id="DfBK-NFORpgDBOeSiNCi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-16" target="DfBK-NFORpgDBOeSiNCi-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DfBK-NFORpgDBOeSiNCi-16" value="tcp_v4_do_rcv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-16" value="tcp_v4_do_rcv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-18" target="DfBK-NFORpgDBOeSiNCi-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-18" value="tcp_rcv_established" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="279.5" y="320" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-20" value="tcp_rcv_state_process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="320" width="180" height="30" as="geometry" />
+          <mxGeometry x="70" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-22" value="sock_def_readable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-24" value="arp_rcv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-26" value="tcpdump 从这个入口抓包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="810" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-29" value="udp_rcv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
