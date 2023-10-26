@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T07:36:10.855Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_cPMv0iM217kYKF1XVMb" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-26T07:44:08.701Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1hpDqLxPFb-3yBGuxDPK" version="22.0.8" type="github" pages="3">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -395,6 +395,18 @@
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-15" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-16" value="LISTEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-17" value="SYN_RECV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-18" value="目前跟踪的是 SYN+ACK 这个步骤&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="730" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-20" value="完整的插桩位置要包括" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="600" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
