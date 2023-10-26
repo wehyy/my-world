@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T07:57:17.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BVDtIfa_3ntlxAuZW30Q" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-26T07:58:01.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="jisV6MGcTkq47IxyrF-Z" version="22.0.8" type="github" pages="3">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -391,18 +391,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-14" value="SYN_SENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="670" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" y="660" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-15" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="730" width="60" height="30" as="geometry" />
+          <mxGeometry x="70" y="700" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-16" value="LISTEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-17" value="SYN_RECV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="680" width="60" height="30" as="geometry" />
+          <mxGeometry x="425" y="660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_mC4AHcPSXBIs1JQNvy5-18" value="目前跟踪的是 SYN+ACK 这个步骤&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-18" value="&lt;font color=&quot;#ff8000&quot;&gt;目前跟踪的是 SYN+ACK 这个步骤&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="700" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-20" value="如何构造完整的flow trace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -495,6 +495,9 @@
           <mxGeometry x="0.0333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-37" value="ESTABLISHED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="750" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
