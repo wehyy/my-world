@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T07:30:10.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="rJJIlTtajd-V_Wf9w6-A" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-26T07:30:39.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QmFAgJNRr5I5n5q6jj5C" version="22.0.8" type="github" pages="3">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -341,8 +341,17 @@
         <mxCell id="cqXSMIiTo6E-XSkUPJjm-1" value="&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="570" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqXSMIiTo6E-XSkUPJjm-2" target="_mC4AHcPSXBIs1JQNvy5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cqXSMIiTo6E-XSkUPJjm-2" value="wrk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_mC4AHcPSXBIs1JQNvy5-1" target="_mC4AHcPSXBIs1JQNvy5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_mC4AHcPSXBIs1JQNvy5-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_mC4AHcPSXBIs1JQNvy5-1" target="_mC4AHcPSXBIs1JQNvy5-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_mC4AHcPSXBIs1JQNvy5-1" value="productpage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="530" width="120" height="60" as="geometry" />
