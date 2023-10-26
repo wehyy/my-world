@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T04:00:28.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oBR4mIOjvNh5cZNOqADS" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-26T04:06:01.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FXEBWx2jesw-HwpLkBRu" version="22.0.8" type="github" pages="2">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
         <mxCell id="DfBK-NFORpgDBOeSiNCi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-1" target="DfBK-NFORpgDBOeSiNCi-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DfBK-NFORpgDBOeSiNCi-1" value="napi_receive_finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-1" value="netif_rx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="950" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfBK-NFORpgDBOeSiNCi-2" target="DfBK-NFORpgDBOeSiNCi-4">
@@ -309,6 +309,26 @@
         </mxCell>
         <mxCell id="DfBK-NFORpgDBOeSiNCi-29" value="udp_rcv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="460" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-31" value="网络 RX 路径" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="1010" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="820" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="DfBK-NFORpgDBOeSiNCi-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-34" value="tcp 层处理函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfBK-NFORpgDBOeSiNCi-35" value="目前在这两个位置 kprobe 插桩，可以得到从报文进入协议栈到 tcp 层的时延信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="590" width="180" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
