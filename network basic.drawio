@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T16:10:25.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RA2ZzBqV4iR_051-_8M4" version="22.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-13T16:10:48.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5jNVuiJdL_4ska-aPxWB" version="22.1.0" type="github" pages="5">
   <diagram name="Page-1" id="nnbmfe6ZIwmps75giQkb">
     <mxGraphModel dx="2924" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -690,6 +690,9 @@
         <mxCell id="WJaAtJBkWsKRD73kXiCN-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="771" y="596" width="20" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="inVcGTMfj7FF9rhyK29V-1" value="&lt;b&gt;发包过程&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -884,6 +887,9 @@
         </mxCell>
         <mxCell id="S9JxwP1U7LQuzUV6Mtqs-1" value="&lt;b&gt;Receive socket buffer:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="580" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S9JxwP1U7LQuzUV6Mtqs-13" value="&lt;b&gt;收包过程&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="970" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
