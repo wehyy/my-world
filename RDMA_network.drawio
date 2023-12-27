@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T15:27:40.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-1AoAVPWphwvWON_ZKnl" version="22.1.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-27T16:13:10.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="10g8gpdz-RCtnJWGQF_c" version="22.1.13" type="github" pages="2">
   <diagram name="rdma 协议" id="wu6Kweq_IXadMa-bzXc7">
     <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0wRqxA7OXhIk8DsUoNSH" name="Page-2">
-    <mxGraphModel dx="988" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,19 +145,187 @@
           <mxGeometry x="195" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xXFz2obMvx-NGRiMoowX-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;IBA Data Packet (Routed unit of work)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="500" width="260" height="30" as="geometry" />
+          <mxGeometry x="80" y="520" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xXFz2obMvx-NGRiMoowX-14" value="&lt;b&gt;Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="540" width="80" height="30" as="geometry" />
+        <mxCell id="xXFz2obMvx-NGRiMoowX-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="550" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xXFz2obMvx-NGRiMoowX-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="540" width="190" height="30" as="geometry" />
+        <mxCell id="xXFz2obMvx-NGRiMoowX-14" value="&lt;b&gt;Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-21">
+          <mxGeometry width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xXFz2obMvx-NGRiMoowX-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="540" width="190" height="30" as="geometry" />
+        <mxCell id="xXFz2obMvx-NGRiMoowX-18" value="&lt;b&gt;Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-21">
+          <mxGeometry x="80" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xXFz2obMvx-NGRiMoowX-18" value="&lt;b&gt;Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="540" width="80" height="30" as="geometry" />
+        <mxCell id="xXFz2obMvx-NGRiMoowX-19" value="&lt;b&gt;Packet payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-21">
+          <mxGeometry x="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-20" value="&lt;b&gt;CRC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-21">
+          <mxGeometry x="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="425" y="550" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-23" value="&lt;b&gt;Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-22">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-24" value="&lt;b&gt;Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-22">
+          <mxGeometry x="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-25" value="&lt;b&gt;Packet payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-22">
+          <mxGeometry x="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-26" value="&lt;b&gt;CRC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-22">
+          <mxGeometry x="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXFz2obMvx-NGRiMoowX-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="540" as="sourcePoint" />
+            <mxPoint x="270" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXFz2obMvx-NGRiMoowX-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="550" as="sourcePoint" />
+            <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXFz2obMvx-NGRiMoowX-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="550" as="sourcePoint" />
+            <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xXFz2obMvx-NGRiMoowX-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="550" as="sourcePoint" />
+            <mxPoint x="650" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="650" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-32" value="&lt;b&gt;Local Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-36" value="&lt;b&gt;Global Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-37" value="&lt;b&gt;Base Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-38" value="&lt;b&gt;Extended Transport&lt;br&gt;Header(s)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-39" value="&lt;b&gt;R_Key or &lt;br&gt;Immediate Data&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-40" value="&lt;b&gt;Message Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-41" value="&lt;b&gt;invariant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-42" value="&lt;b&gt;variant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-43">
+          <mxGeometry x="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-44" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;IBA Packet&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-45" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Local (with a subnet) Packets&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="750" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-55" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Global (routing between subnets) Packets&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="780" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-47" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Local&lt;/font&gt; Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-61">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-49" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;IBA&lt;/font&gt; Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-61">
+          <mxGeometry x="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-52" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-61">
+          <mxGeometry x="200" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-53" value="&lt;b&gt;invariant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-61">
+          <mxGeometry x="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-54" value="&lt;b&gt;variant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-61">
+          <mxGeometry x="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-63" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Raw Packet with Raw Header&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="920" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-70" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Raw Packet with IPv6 Header&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1010" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-76" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="950" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-64" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Local&lt;/font&gt; Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-76">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-65" value="&lt;b&gt;Other Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-76">
+          <mxGeometry x="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-66" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-76">
+          <mxGeometry x="300" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-68" value="&lt;b&gt;variant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-76">
+          <mxGeometry x="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-69" value="&lt;b&gt;Raw&amp;nbsp;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-76">
+          <mxGeometry x="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="1040" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-71" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Local&lt;/font&gt; Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-77">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-72" value="&lt;b&gt;Other Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-77">
+          <mxGeometry x="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-73" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-77">
+          <mxGeometry x="300" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-74" value="&lt;b&gt;variant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-77">
+          <mxGeometry x="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-75" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;IPv6&lt;/font&gt; Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-77">
+          <mxGeometry x="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-78" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="860" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-56" value="&lt;b&gt;Local Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-57" value="&lt;b&gt;IBA Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry x="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-58" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry x="300" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-59" value="&lt;b&gt;invariant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry x="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-60" value="&lt;b&gt;variant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry x="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-62" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Global&lt;/font&gt; Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="xXFz2obMvx-NGRiMoowX-78">
+          <mxGeometry x="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-79" value="&lt;b&gt;&lt;font color=&quot;#2570ba&quot;&gt;8 Bytes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-80" value="&lt;b&gt;&lt;font color=&quot;#2570ba&quot;&gt;40 Bytes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-81" value="&lt;b&gt;&lt;font color=&quot;#2570ba&quot;&gt;12 Bytes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
