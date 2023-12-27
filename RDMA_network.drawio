@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T16:13:10.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="10g8gpdz-RCtnJWGQF_c" version="22.1.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-27T16:42:29.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="35dLdX6A3GkD-zogvAhL" version="22.1.13" type="github" pages="2">
   <diagram name="rdma 协议" id="wu6Kweq_IXadMa-bzXc7">
     <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -326,6 +326,72 @@
         </mxCell>
         <mxCell id="xXFz2obMvx-NGRiMoowX-81" value="&lt;b&gt;&lt;font color=&quot;#2570ba&quot;&gt;12 Bytes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="680" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-94" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RoCE Packet&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-89" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;Eth L2&lt;br&gt;Header&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-91" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-92" value="&lt;b&gt;invariant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-93" value="&lt;b&gt;Global Routing&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-95" value="&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;Ether Type&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1130" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-96" value="&lt;b&gt;Base Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-98" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;IB GRH&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-100" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;IB BTH&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-101" value="&lt;b&gt;FCS&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-102" value="&lt;b style=&quot;&quot;&gt;Eth L2&lt;br&gt;Header&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-103" value="&lt;b&gt;Packet Payload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1240" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-104" value="&lt;b&gt;invariant&lt;br&gt;CRC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-106" value="&lt;b style=&quot;&quot;&gt;Ether Type&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-107" value="&lt;b&gt;Base Transport&lt;br&gt;Header&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-109" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;IB BTH&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-110" value="&lt;b&gt;FCS&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-111" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;RoCEv2 Packet&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-112" value="&lt;b style=&quot;&quot;&gt;IP&lt;br&gt;Header&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-113" value="&lt;b style=&quot;&quot;&gt;Protocol&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-114" value="&lt;b style=&quot;&quot;&gt;UDP&lt;br&gt;Header&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXFz2obMvx-NGRiMoowX-115" value="&lt;b style=&quot;&quot;&gt;Port&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1240" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
