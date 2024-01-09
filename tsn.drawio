@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T08:48:41.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vSW1J-5rmAP8fhdUTotW" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:42:30.076Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tW07j_uLHQKA8vpK0Bee" version="22.1.17" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1481" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1152" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -16,11 +16,51 @@
         <mxCell id="ViThs1E6ZkW2AHLPsCAg-1" value="Beginning of the progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="240" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ViThs1E6ZkW2AHLPsCAg-3" value="Timer function starts to initialize operation time-instant OT_i to 0,&lt;br&gt;current time-instant CT to 0;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;verticalAlign=middle;spacingBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ViThs1E6ZkW2AHLPsCAg-3" target="ViThs1E6ZkW2AHLPsCAg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-3" value="Timer function starts to initialize operation time-instant \(OT_i\) to 0,&lt;br&gt;current time-instant CT to 0;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;verticalAlign=middle;spacingBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="360" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ViThs1E6ZkW2AHLPsCAg-10" value="Calculate OT_i by accumulating T_i: OT_i = OT_i-1 + T_i" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=8;spacingBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="440" width="320" height="40" as="geometry" />
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-10" value="Calculate \(OT_i\) by accumulating \(T_i: OT_i = OT_i-1 + T_i\)" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=8;spacingBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="420" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-12" value="Update CT same as current simulation time-instant" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=left;verticalAlign=middle;spacingLeft=8;spacingBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="480" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ViThs1E6ZkW2AHLPsCAg-14" target="ViThs1E6ZkW2AHLPsCAg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-14" value="Is \(OT_i\) equal to CT?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;spacingLeft=8;spacingBottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="337.5" y="540" width="205" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-15" value="At each \(OT_i\), Gate Operation examines the current gate states and&lt;br&gt;stores them in an 8-bit string called \(CGS_i\) (current gate state)." style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;verticalAlign=middle;spacingBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="630" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ViThs1E6ZkW2AHLPsCAg-10" target="ViThs1E6ZkW2AHLPsCAg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.72" y="510" as="sourcePoint" />
+            <mxPoint x="439.72" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-23" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ViThs1E6ZkW2AHLPsCAg-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="601" y="573" />
+              <mxPoint x="601" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-24" value="No" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViThs1E6ZkW2AHLPsCAg-26" value="Yes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
