@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T03:51:39.770Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sjMoBrnd2VL_AqPnatPP" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T03:53:44.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Twd7KrBbq35GWoAhT2uS" version="22.1.21" type="github">
   <diagram name="Page-1" id="GIrhPuon1AMU0L5ACHcF">
-    <mxGraphModel dx="3154" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2445" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,9 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-28" value="用户提交的等待任务数量超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="280" y="880" width="240" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-29" target="aLLWMUdCiFEa0aZxwGlS-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-29" value="停止用户最新提交的任务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="1050" width="240" height="40" as="geometry" />
         </mxCell>
@@ -150,6 +153,9 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-49" value="单任务的剩余运行时间不足1小时" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1180" y="880" width="240" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-50" target="aLLWMUdCiFEa0aZxwGlS-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-50" value="提交告警信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="1120" width="240" height="40" as="geometry" />
         </mxCell>
@@ -165,14 +171,38 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-56" value="结束该任务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="890" y="1050" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-58" target="aLLWMUdCiFEa0aZxwGlS-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-58" value="提交告警信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="600" y="1120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-59" target="aLLWMUdCiFEa0aZxwGlS-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="1270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-59" value="提交告警信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="890" y="1120" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-60" target="aLLWMUdCiFEa0aZxwGlS-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-60" value="提交告警信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-75" value="整合告警信息，调用飞书 bot API 发送通知" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1240" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
