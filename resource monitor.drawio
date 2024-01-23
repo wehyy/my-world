@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T03:23:31.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="p478aNNPMTukGZSQRRJb" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T03:38:53.435Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="koLetOwp4duQ4Cpq2G5b" version="22.1.21" type="github">
   <diagram name="Page-1" id="GIrhPuon1AMU0L5ACHcF">
-    <mxGraphModel dx="988" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2280" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="280" y="200" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-3" value="配置文件 conf.ini" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="10" width="240" height="290" as="geometry" />
+          <mxGeometry x="-40" y="200" width="240" height="290" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-4" value="&lt;span style=&quot;background-color: initial;&quot;&gt;default queue&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="aLLWMUdCiFEa0aZxwGlS-3">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
@@ -43,7 +43,13 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-17" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;......&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-19" value="初始化 PreemptiveQueue 资源对象，随后调用对应的监听动作" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-19" target="aLLWMUdCiFEa0aZxwGlS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-19" target="aLLWMUdCiFEa0aZxwGlS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-19" value="初始化 PreemptiveQueue 资源对象，随后调用对应的监听动作" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="410" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.601;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -52,14 +58,64 @@
             <mxPoint x="399.76" y="409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-21" target="aLLWMUdCiFEa0aZxwGlS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-21" value="check_queue_tasks()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="530" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-23" value="check_running_tasks()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="600" y="530" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-24" value="调用火山引擎API：volc_client()，&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;并处理response&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-24" target="aLLWMUdCiFEa0aZxwGlS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-24" value="调用火山引擎API：volc_client()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="630" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-26" target="aLLWMUdCiFEa0aZxwGlS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-26" value="处理 response，得到每一用户提交的等待任务列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="750" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-28" target="aLLWMUdCiFEa0aZxwGlS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aLLWMUdCiFEa0aZxwGlS-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="920" />
+              <mxPoint x="540" y="850" />
+              <mxPoint x="520" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-28" value="用户提交的等待任务数量超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-29" value="停止最新提交的任务，添加告警通知" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1050" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-32" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="234.9" as="sourcePoint" />
+            <mxPoint x="280" y="234.9" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-42" value="调用火山引擎API：volc_client()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-43" value="处理 response，获取" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="750" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-46" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="890" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
