@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:37:50.687Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wYswS9EhR0DLvodDEZNc" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T02:38:21.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5BHDA9WpZr6goxMOFgck" version="22.1.21" type="github" pages="2">
   <diagram name="flow-chat" id="GIrhPuon1AMU0L5ACHcF">
-    <mxGraphModel dx="2280" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3290" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-1" target="aLLWMUdCiFEa0aZxwGlS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-1" value="MONITOR START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-1" value="MONITOR START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="320" y="90" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-2" target="aLLWMUdCiFEa0aZxwGlS-13" edge="1">
@@ -95,7 +95,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-28" value="用户提交的等待任务数量超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-28" value="用户提交的等待任务数量超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="280" y="880" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-29" target="aLLWMUdCiFEa0aZxwGlS-50" edge="1">
@@ -138,19 +138,19 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-47" target="aLLWMUdCiFEa0aZxwGlS-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-47" value="每用户的运行任务GPU资源超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-47" value="每用户的运行任务GPU资源超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="600" y="880" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-48" target="aLLWMUdCiFEa0aZxwGlS-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-48" value="单任务的可运行时间超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-48" value="单任务的可运行时间超出上限" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="890" y="880" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-49" target="aLLWMUdCiFEa0aZxwGlS-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-49" value="单任务的剩余运行时间不足1小时" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-49" value="单任务的剩余运行时间不足1小时" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1180" y="880" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aLLWMUdCiFEa0aZxwGlS-50" target="aLLWMUdCiFEa0aZxwGlS-75" edge="1">
@@ -201,7 +201,7 @@
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-60" value="提交告警信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1120" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLLWMUdCiFEa0aZxwGlS-75" value="整合告警信息，调用飞书 bot API 发送通知" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="aLLWMUdCiFEa0aZxwGlS-75" value="整合告警信息，调用飞书 bot API 发送通知" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="280" y="1240" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vyTMp8wDwJdIPYJWFNQc-1" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
