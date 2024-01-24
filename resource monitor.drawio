@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:36:25.363Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3-9KHNFBTJYfKBL5Czqk" version="22.1.21" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-24T02:37:50.687Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wYswS9EhR0DLvodDEZNc" version="22.1.21" type="github" pages="2">
   <diagram name="flow-chat" id="GIrhPuon1AMU0L5ACHcF">
-    <mxGraphModel dx="2924" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2280" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,6 +203,57 @@
         </mxCell>
         <mxCell id="aLLWMUdCiFEa0aZxwGlS-75" value="整合告警信息，调用飞书 bot API 发送通知" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=8;spacingRight=8;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="1240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-1" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-2" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-3" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="920" />
+              <mxPoint x="860" y="850" />
+              <mxPoint x="840" y="850" />
+            </Array>
+            <mxPoint x="840" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-5" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="920" />
+              <mxPoint x="1150" y="850" />
+              <mxPoint x="1130" y="850" />
+            </Array>
+            <mxPoint x="1130" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-9" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="920" />
+              <mxPoint x="1440" y="850" />
+              <mxPoint x="1420" y="850" />
+            </Array>
+            <mxPoint x="1420" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyTMp8wDwJdIPYJWFNQc-11" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="890" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
