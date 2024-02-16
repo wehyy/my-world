@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T03:03:16.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="tqLO-MdpbIaBhu5Nsffz" version="23.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-16T03:03:32.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kH2QS4YTMUmAv7VPHhY3" version="23.1.5" type="github" pages="7">
   <diagram name="industrial-network" id="U3fu2ffD_hqvJIBoZ9ib">
     <mxGraphModel dx="2074" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3542,7 +3542,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DfVEpA1KmRvjCNezrEHO-129" value="3,2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-129" value="4,2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1120" y="400" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-132" target="DfVEpA1KmRvjCNezrEHO-136">
@@ -3608,7 +3608,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DfVEpA1KmRvjCNezrEHO-147" value="3,2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-147" value="5,2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1120" y="480" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-152" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-148" target="DfVEpA1KmRvjCNezrEHO-109">
