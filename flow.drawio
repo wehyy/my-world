@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T02:07:33.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5ZmIvve1vL95k2Oh9CXq" version="23.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-16T02:15:15.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ww663lVMM7DxTcus2ETZ" version="23.1.5" type="github" pages="7">
   <diagram name="industrial-network" id="U3fu2ffD_hqvJIBoZ9ib">
     <mxGraphModel dx="2074" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3145,18 +3145,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_1X0NI2Wp-Qy2NM0iPpn" name="Page-7">
-    <mxGraphModel dx="1257" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="847" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DfVEpA1KmRvjCNezrEHO-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-1" target="DfVEpA1KmRvjCNezrEHO-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-35" value="0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-15">
+          <mxGeometry x="-0.1154" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-1" target="DfVEpA1KmRvjCNezrEHO-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-39" value="0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-19">
+          <mxGeometry x="-0.3955" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-1" target="DfVEpA1KmRvjCNezrEHO-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-42" value="0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-23">
+          <mxGeometry x="-0.1201" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-1" value="s" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="160" y="440" width="40" height="40" as="geometry" />
@@ -3167,6 +3182,11 @@
         <mxCell id="DfVEpA1KmRvjCNezrEHO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-4" target="DfVEpA1KmRvjCNezrEHO-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-36" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-17">
+          <mxGeometry x="-0.2129" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-4" target="DfVEpA1KmRvjCNezrEHO-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3175,6 +3195,11 @@
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-5" target="DfVEpA1KmRvjCNezrEHO-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-37" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-18">
+          <mxGeometry x="-0.2432" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-5" target="DfVEpA1KmRvjCNezrEHO-12">
           <mxGeometry relative="1" as="geometry" />
@@ -3185,6 +3210,11 @@
         <mxCell id="DfVEpA1KmRvjCNezrEHO-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-6" target="DfVEpA1KmRvjCNezrEHO-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-38" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-22">
+          <mxGeometry x="-0.1201" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-6" target="DfVEpA1KmRvjCNezrEHO-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3193,6 +3223,11 @@
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3399FF;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-8" target="DfVEpA1KmRvjCNezrEHO-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-40" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-20">
+          <mxGeometry x="-0.3038" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-8" target="DfVEpA1KmRvjCNezrEHO-13">
           <mxGeometry relative="1" as="geometry" />
@@ -3203,6 +3238,11 @@
         <mxCell id="DfVEpA1KmRvjCNezrEHO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-9" target="DfVEpA1KmRvjCNezrEHO-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-41" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-21">
+          <mxGeometry x="-0.3716" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-9" target="DfVEpA1KmRvjCNezrEHO-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3212,11 +3252,21 @@
         <mxCell id="DfVEpA1KmRvjCNezrEHO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-12" target="DfVEpA1KmRvjCNezrEHO-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-43" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-25">
+          <mxGeometry x="-0.3795" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-12" value="2,3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-13" target="DfVEpA1KmRvjCNezrEHO-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-44" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DfVEpA1KmRvjCNezrEHO-26">
+          <mxGeometry x="-0.3492" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-13" target="DfVEpA1KmRvjCNezrEHO-6">
           <mxGeometry relative="1" as="geometry" />
@@ -3224,11 +3274,19 @@
         <mxCell id="DfVEpA1KmRvjCNezrEHO-13" value="1,3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="360" y="520" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DfVEpA1KmRvjCNezrEHO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-14" target="DfVEpA1KmRvjCNezrEHO-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-27" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9933;strokeWidth=3;" edge="1" parent="1" source="DfVEpA1KmRvjCNezrEHO-14" target="DfVEpA1KmRvjCNezrEHO-2">
+          <mxGeometry x="-0.0056" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DfVEpA1KmRvjCNezrEHO-14" value="3,3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-34" value="析取图模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfVEpA1KmRvjCNezrEHO-45" value="顶点表示操作，用 (mechine, job) 二元组表示&lt;br&gt;&lt;div style=&quot;&quot;&gt;实线箭头表示工作序列，虚线连接的顶点表示这些操作上在相同的机器上执行&lt;/div&gt;无论是数学描述还是析取图模型，JSP 问题都表现为在 &lt;b&gt;作业工序链&lt;/b&gt;的约束下，求解 &lt;b&gt;机器工序链&lt;/b&gt; 的问题" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="390" width="260" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
