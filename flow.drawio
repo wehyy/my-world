@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T08:17:43.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="neTrM8A8sH69Cs9x7H63" version="23.1.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-02-19T08:19:34.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mSt1dL93EayuzXXjFlDG" version="23.1.5" type="github" pages="9">
   <diagram name="industrial-network" id="U3fu2ffD_hqvJIBoZ9ib">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3777,7 +3777,7 @@
             <mxPoint x="20" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Esml5aceFvOnTwrQpS5y-24" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;node 1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Esml5aceFvOnTwrQpS5y-24" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;\(N_1\)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="80" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Esml5aceFvOnTwrQpS5y-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#808080;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeWidth=3;" edge="1" parent="1" source="Esml5aceFvOnTwrQpS5y-27" target="Esml5aceFvOnTwrQpS5y-30">
@@ -3788,7 +3788,7 @@
             <mxPoint x="12" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Esml5aceFvOnTwrQpS5y-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;node 2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Esml5aceFvOnTwrQpS5y-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;\(N_2\)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Esml5aceFvOnTwrQpS5y-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeWidth=3;" edge="1" parent="1" source="Esml5aceFvOnTwrQpS5y-30" target="Esml5aceFvOnTwrQpS5y-31">
@@ -3799,10 +3799,10 @@
             <mxPoint x="18" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Esml5aceFvOnTwrQpS5y-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;node 3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Esml5aceFvOnTwrQpS5y-30" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;\(N_3\)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="280" y="260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Esml5aceFvOnTwrQpS5y-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;node 4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Esml5aceFvOnTwrQpS5y-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;\(N_4\)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="480" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Esml5aceFvOnTwrQpS5y-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
