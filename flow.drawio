@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T08:15:54.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GD5FT96zsD-dqSRhW7WT" version="23.1.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-02-19T08:16:12.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="twdD5H7ahL-UaCabvdQN" version="23.1.5" type="github" pages="9">
   <diagram name="industrial-network" id="U3fu2ffD_hqvJIBoZ9ib">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3837,6 +3837,9 @@
         </mxCell>
         <mxCell id="bga4xqi7zUVdXoumJSO6-91" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bga4xqi7zUVdXoumJSO6-75">
           <mxGeometry x="130" y="6" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bga4xqi7zUVdXoumJSO6-95" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bga4xqi7zUVdXoumJSO6-75">
+          <mxGeometry x="250" y="6" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bga4xqi7zUVdXoumJSO6-77" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="120" y="689" width="680" height="20" as="geometry" />
