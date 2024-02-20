@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T01:12:15.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GcfcEQJOMoaiPkaBikEt" version="23.1.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-02-20T01:12:28.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="eL4pmDkO7YFmY4QQW-F8" version="23.1.5" type="github" pages="13">
   <diagram name="industrial-network" id="U3fu2ffD_hqvJIBoZ9ib">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3863,7 +3863,7 @@
             <mxPoint x="590" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oSRje3AnereCNng8PHBL-14" value="\(sf_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="oSRje3AnereCNng8PHBL-14" value="\(sf_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="160" y="370" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oSRje3AnereCNng8PHBL-15" value="\(sf_3\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -3959,7 +3959,7 @@
             <mxPoint x="320" y="349" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oSRje3AnereCNng8PHBL-37" value="\(sf_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="oSRje3AnereCNng8PHBL-37" value="\(sf_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="840" y="370" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oSRje3AnereCNng8PHBL-38" value="\(sf_3\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -3968,10 +3968,10 @@
         <mxCell id="oSRje3AnereCNng8PHBL-39" value="\(sf_2\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="760" y="430" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oSRje3AnereCNng8PHBL-40" value="\(if_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="oSRje3AnereCNng8PHBL-40" value="\(if_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="760" y="370" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oSRje3AnereCNng8PHBL-41" value="\(if_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="oSRje3AnereCNng8PHBL-41" value="\(if_1\)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="370" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oSRje3AnereCNng8PHBL-42" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
