@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T09:01:02.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="bOBkFoWc6wrb8zJ5DVec" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-21T09:32:37.548Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="JWRnTb8td-ZhORHj6HRN" version="23.1.5" type="github" pages="2">
   <diagram name="Page-1" id="ZvwX73-PA7wriDZe_HEK">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,14 +24,14 @@
         <mxCell id="AN9DLkq8b72_RTPItEtO-3" value="IB_PORT_ARMED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AN9DLkq8b72_RTPItEtO-4" value="端口状态为 &#39;disable&#39; 或线缆问题" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="240" width="110" height="30" as="geometry" />
+        <mxCell id="AN9DLkq8b72_RTPItEtO-4" value="端口状态为 &#39;disable&#39; 或线缆问题" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="232.5" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AN9DLkq8b72_RTPItEtO-5" value="端口初始化中，卡在该状态可能是SM运行异常" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="140" height="30" as="geometry" />
+        <mxCell id="AN9DLkq8b72_RTPItEtO-5" value="端口初始化中，卡在该状态可能是SM运行异常" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="272.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AN9DLkq8b72_RTPItEtO-6" value="端口固件配置，卡在该状态可能是固件问题" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="320" width="140" height="40" as="geometry" />
+        <mxCell id="AN9DLkq8b72_RTPItEtO-6" value="端口固件配置，卡在该状态可能是固件问题" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="312.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AN9DLkq8b72_RTPItEtO-7" value="IBV_PORT_ACTIVE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="240" width="120" height="30" as="geometry" />
@@ -66,7 +66,7 @@
         <mxCell id="AN9DLkq8b72_RTPItEtO-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="230" y="225" width="140" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="AN9DLkq8b72_RTPItEtO-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="AN9DLkq8b72_RTPItEtO-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFB570;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="520" y="225" width="180" height="135" as="geometry" />
         </mxCell>
       </root>
