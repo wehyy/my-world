@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T09:22:51.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KIZrH8NLIUoKVw7FROjc" version="24.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-24T09:22:59.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ib_m7-q_lEidT415eSgd" version="24.1.0" type="github" pages="4">
   <diagram name="Page-1" id="ZvwX73-PA7wriDZe_HEK">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,8 +272,8 @@
         <mxCell id="GHBamG7Qt3KhKki1meN_-48" value="Receive Work Request Completed with error or async error" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#EA6B66;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="520" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GHBamG7Qt3KhKki1meN_-49" value="状态：" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="750" width="60" height="30" as="geometry" />
+        <mxCell id="GHBamG7Qt3KhKki1meN_-49" value="&lt;b&gt;状态：&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="750" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
