@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T15:17:43.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kC9-2knT_x8K8ssOwHwO" version="24.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-24T15:18:22.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="QUOf_MKs1yeOazPFF5tm" version="24.1.0" type="github" pages="5">
   <diagram name="Page-1" id="ZvwX73-PA7wriDZe_HEK">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -279,7 +279,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HfoJ88MfgGYOO-mOzw8O" name="nccl-communication">
-    <mxGraphModel dx="1257" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1803" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -599,6 +599,20 @@
         </mxCell>
         <mxCell id="oO7NKFy9gAOAZS0V82mU-91" value="create pq" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1235" y="950" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oO7NKFy9gAOAZS0V82mU-98" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1140" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oO7NKFy9gAOAZS0V82mU-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oO7NKFy9gAOAZS0V82mU-98" target="oO7NKFy9gAOAZS0V82mU-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305" y="1150" />
+              <mxPoint x="1305" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oO7NKFy9gAOAZS0V82mU-100" value="create fifo mr" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="1170" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
