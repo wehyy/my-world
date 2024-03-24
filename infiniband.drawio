@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T08:48:56.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ewMXLBYHD2dcWZoCpz0Z" version="24.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-24T08:52:37.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="M4vnH_7mAAQ8TF84US5E" version="24.1.0" type="github" pages="4">
   <diagram name="Page-1" id="ZvwX73-PA7wriDZe_HEK">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,10 +126,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FqkP2fSIEJY3eTpo0y5Y" name="qp-state">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GHBamG7Qt3KhKki1meN_-2" value="Reset" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-3" value="Initialize (Init)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-4" value="Ready To Receive (RTR)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-5" value="Ready To Send (RTS)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-6" value="Send Queue Drained (SQD)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-7" value="Send Queue Error (SQE)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHBamG7Qt3KhKki1meN_-8" value="Error" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
