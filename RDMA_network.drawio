@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T03:11:11.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nm9Ewnq6D7MW2XtR-c36" version="24.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-05-06T03:13:17.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qWAemaDyqpiQueejhSlr" version="24.2.2" type="github" pages="6">
   <diagram name="rdma 协议" id="wu6Kweq_IXadMa-bzXc7">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -940,6 +940,21 @@
         </mxCell>
         <mxCell id="QwnlZO0k_xq8vhHB2mQa-50" value=". . ." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QwnlZO0k_xq8vhHB2mQa-52">
           <mxGeometry x="63" y="62" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QwnlZO0k_xq8vhHB2mQa-53" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QwnlZO0k_xq8vhHB2mQa-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="335" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QwnlZO0k_xq8vhHB2mQa-55" value="RDMA State" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="335" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QwnlZO0k_xq8vhHB2mQa-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="175" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QwnlZO0k_xq8vhHB2mQa-59" value="PCIe" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="155" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
