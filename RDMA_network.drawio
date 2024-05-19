@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T08:24:28.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MyuuruC8uFktfEjyafyZ" version="24.4.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-19T08:24:44.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qROJqRo2leS0lX534WTV" version="24.4.4" type="github" pages="9">
   <diagram name="rdma 协议" id="wu6Kweq_IXadMa-bzXc7">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1234,6 +1234,12 @@
         </mxCell>
         <mxCell id="348LZD4L3dTOeZDSAr89-19" value="CM 协议报文" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="348LZD4L3dTOeZDSAr89-20" value="节点A" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="348LZD4L3dTOeZDSAr89-21" value="节点B" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="500" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
