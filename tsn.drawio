@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T02:41:43.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4OZU4OJOQRccsPaa4F4U" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-05-20T02:56:54.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GpndqDOnpAR-CpQIutYF" version="24.4.4" type="github" pages="15">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GCL flowchat">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -5850,7 +5850,7 @@
   </diagram>
   <diagram id="OByxTEanHqh7xUjO6c3J" name="greedy-shaper" />
   <diagram id="xF8OynwRgj1a1m4ZqG-f" name="no-critical flow">
-    <mxGraphModel dx="830" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="988" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6684,6 +6684,9 @@
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-232" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;0&lt;/font&gt;&lt;font color=&quot;#3399ff&quot;&gt;00&lt;/font&gt;0 0001&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-218">
           <mxGeometry x="30" y="130.76923076923077" width="60" height="26.153846153846153" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-233" value="&lt;b&gt;假设划分非关键子流A和非关键子流B，方便使用CBS和CQF&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="840" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
