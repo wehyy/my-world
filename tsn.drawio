@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T02:10:33.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GS1pKhDgopxRfPTvI5uk" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-05-20T02:29:10.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="CM_JT-U700Cxyd8ye1oN" version="24.4.4" type="github" pages="15">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GCL flowchat">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -6546,7 +6546,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-186" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="890" y="770" width="160" height="30" as="geometry" />
+          <mxGeometry x="610" y="770" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-187" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-186">
           <mxGeometry width="160" height="30" as="geometry" />
@@ -6555,7 +6555,7 @@
           <mxGeometry x="20" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-189" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="890" y="810" width="160" height="30" as="geometry" />
+          <mxGeometry x="610" y="810" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-190" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-189">
           <mxGeometry width="160" height="30" as="geometry" />
@@ -6564,10 +6564,10 @@
           <mxGeometry width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-192" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=6;" vertex="1" parent="1">
-          <mxGeometry x="860" y="760" width="200" height="90" as="geometry" />
+          <mxGeometry x="580" y="760" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-193" value="&lt;b&gt;一阶段参数&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="865" y="770" width="20" height="70" as="geometry" />
+          <mxGeometry x="585" y="770" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-194" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -6578,17 +6578,16 @@
         <mxCell id="HdaonpjE8IzH4vKqgFlN-195" value="&lt;b&gt;析取图建模，确定关键子流和非关键子流启动时间&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
           <mxGeometry x="600" y="640" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HdaonpjE8IzH4vKqgFlN-196" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="765" y="659.83" as="sourcePoint" />
-            <mxPoint x="875" y="659.83" as="targetPoint" />
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="HdaonpjE8IzH4vKqgFlN-192">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HdaonpjE8IzH4vKqgFlN-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HdaonpjE8IzH4vKqgFlN-197" target="HdaonpjE8IzH4vKqgFlN-192">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-201" value="&lt;b&gt;不进行优化：关键子流和非关键子流都使用TAS流量整形，GCL表项条目过长&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="640" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HdaonpjE8IzH4vKqgFlN-197" value="&lt;b&gt;析取图建模，确定关键子流和非关键子流启动时间&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="880" y="640" width="160" height="40" as="geometry" />
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-202" value="&lt;b&gt;经过优化：非关键子流可以使用其他流量整型器，有效缩短GCL表项长度&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="690" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
