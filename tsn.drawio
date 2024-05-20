@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T01:56:41.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="q3ngGmsCcDxx_ynGkA-j" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-05-20T02:06:00.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8Wsf0-SKlPiMizhz7h-a" version="24.4.4" type="github" pages="15">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GCL flowchat">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -6533,8 +6533,50 @@
         <mxCell id="HdaonpjE8IzH4vKqgFlN-181" value="&lt;b&gt;将GCL信息转换为交换设备参数&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="80" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HdaonpjE8IzH4vKqgFlN-182" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="160" y="640" width="280" height="160" as="geometry" />
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-182" value="&lt;b&gt;TAS CPLEX求解器&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-183" value="&lt;b&gt;Flow Info&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-184" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="660" as="sourcePoint" />
+            <mxPoint x="310" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-186" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="750" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-187" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-186">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-188" value="&lt;b&gt;关键子流启动时间&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-186">
+          <mxGeometry x="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-189" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-190" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-189">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-191" value="&lt;b&gt;非关键子流最晚启动时间&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HdaonpjE8IzH4vKqgFlN-189">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-192" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-193" value="&lt;b&gt;一阶段参数&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="750" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-194" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="659.76" as="sourcePoint" />
+            <mxPoint x="595" y="659.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-195" value="&lt;b&gt;析取图建模，确定关键子流和非关键子流启动时间&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
