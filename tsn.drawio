@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T06:41:11.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="sfV_taUS5ZLXjTDQnZTO" version="24.4.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-05-21T06:43:19.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Iw0sL1idnoJt0AsP2n7T" version="24.4.4" type="github" pages="16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="GCL flowchat">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -6572,14 +6572,14 @@
         <mxCell id="HdaonpjE8IzH4vKqgFlN-195" value="&lt;span&gt;析取图建模，确定关键子流和非关键子流启动时间&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="320" y="770" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HdaonpjE8IzH4vKqgFlN-201" value="&lt;span&gt;不进行优化：关键子流和非关键子流都使用TAS流量整形，GCL表项条目过长&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1040" y="830" width="240" height="30" as="geometry" />
+        <mxCell id="HdaonpjE8IzH4vKqgFlN-201" value="&lt;span&gt;不进行优化：关键子流和非关键子流都使用TAS流量整形，GCL表项条目过长&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="820" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-202" value="&lt;span&gt;经过优化：非关键子流可以使用其他流量整型器，有效缩短GCL表项长度&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1010" y="980" width="240" height="30" as="geometry" />
+          <mxGeometry x="615" y="1090" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-203" value="" style="group;fontStyle=1" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="820" y="700" width="100" height="170" as="geometry" />
+          <mxGeometry x="675" y="640" width="100" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-204" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=none;fontStyle=1" parent="HdaonpjE8IzH4vKqgFlN-203" vertex="1">
           <mxGeometry width="100" height="170" as="geometry" />
@@ -6627,7 +6627,7 @@
           <mxGeometry x="30" y="130.76923076923077" width="60" height="26.153846153846153" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-218" value="" style="group;fontStyle=1" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="820" y="910" width="100" height="170" as="geometry" />
+          <mxGeometry x="675" y="910" width="100" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HdaonpjE8IzH4vKqgFlN-219" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=none;fontStyle=1" parent="HdaonpjE8IzH4vKqgFlN-218" vertex="1">
           <mxGeometry width="100" height="170" as="geometry" />
@@ -7179,6 +7179,12 @@
         </mxCell>
         <mxCell id="b5ORV8NVYtLn3aOOl52h-2" value="&lt;b&gt;Flow Info&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="630" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b5ORV8NVYtLn3aOOl52h-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#0066CC;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1180" as="sourcePoint" />
+            <mxPoint x="599.17" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
