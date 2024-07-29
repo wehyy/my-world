@@ -46,6 +46,9 @@
         <mxCell id="h8XMJmXSjZCXgNOctJCN-9" value="mlx5e_open_channels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="240" y="720" width="140" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="h8XMJmXSjZCXgNOctJCN-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1" source="h8XMJmXSjZCXgNOctJCN-10" target="h8XMJmXSjZCXgNOctJCN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h8XMJmXSjZCXgNOctJCN-10" value="netif_napi_add(netdev, &amp;amp;c-&amp;gt;napi, mlx5e_napi_poll, 64);" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="155" y="780" width="310" height="20" as="geometry" />
         </mxCell>
@@ -263,6 +266,9 @@
         </mxCell>
         <mxCell id="h8XMJmXSjZCXgNOctJCN-82" value="action=XDP_ABORTED" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8XMJmXSjZCXgNOctJCN-84" value="注册NAPI轮询函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="590" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
