@@ -94,7 +94,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TjsXnp3fXacF0DOC6Yf5" name="虚拟地址空间">
-    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
           <mxGeometry x="30" y="160" width="448" height="573" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-22" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="160" width="240" height="740" as="geometry" />
+          <mxGeometry x="920" y="160" width="240" height="740" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Sans+Simplified+Chinese&quot; face=&quot;Noto Sans Simplified Chinese&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;与进程相关的数据结构&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Ax8rC_hTtlp69Eoer5o2&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;（例如，页表、task 和 mm 结构，内核栈）&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;spacingRight=10;spacingLeft=10;" vertex="1" parent="YSrPAstB_OERPcartm6A-22">
           <mxGeometry width="240" height="110" as="geometry" />
@@ -162,16 +162,28 @@
           <mxGeometry y="540" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="850" y="160" width="20" height="230" as="geometry" />
+          <mxGeometry x="1170" y="160" width="20" height="230" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="850" y="410" width="20" height="490" as="geometry" />
+          <mxGeometry x="1170" y="410" width="20" height="490" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;内核虚拟内存&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="258" width="120" height="30" as="geometry" />
+          <mxGeometry x="1190" y="258" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YSrPAstB_OERPcartm6A-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;进程虚拟内存&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="640" width="120" height="30" as="geometry" />
+          <mxGeometry x="1190" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSrPAstB_OERPcartm6A-32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="160" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YSrPAstB_OERPcartm6A-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="280" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YSrPAstB_OERPcartm6A-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;对每个进程都不相同&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSrPAstB_OERPcartm6A-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;对每个进程都一样&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="325" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
