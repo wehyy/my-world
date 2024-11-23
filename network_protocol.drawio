@@ -48,7 +48,7 @@
         <mxCell id="qjDEnjhGzWE_qcPxuMuV-13" value="Control channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="400" y="490" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qjDEnjhGzWE_qcPxuMuV-14" value="&lt;font color=&quot;#ff3333&quot;&gt;port:21&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="qjDEnjhGzWE_qcPxuMuV-14" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;port:21&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="470" y="515" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjDEnjhGzWE_qcPxuMuV-15" value="User Interfaces" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#6c8ebf;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;" vertex="1" parent="1">
@@ -69,7 +69,7 @@
         <mxCell id="qjDEnjhGzWE_qcPxuMuV-20" value="Data channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="420" y="600" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qjDEnjhGzWE_qcPxuMuV-21" value="&lt;font color=&quot;#ff3333&quot;&gt;port:20&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="qjDEnjhGzWE_qcPxuMuV-21" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;port:20&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="470" y="625" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
